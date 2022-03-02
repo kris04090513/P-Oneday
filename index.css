@@ -1,0 +1,193 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-top-bar {
+  background-color: rgb(230, 230, 230);
+
+}
+
+@media (min-width: 768px) {
+  .nav-top-bar {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+.nav-bar-second {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+}
+
+.nav-link text-dark-area a {
+  transition: 0.5s;
+}
+
+.nav-link text-dark-area a:hover {
+  color: burlywood;
+  text-decoration: none;
+}
+
+.nav-bar-third > ul {
+  white-space: nowrap;
+}
+
+.fab {
+  font-size: 1.4rem;
+}
+
+.fa-bars {
+  font-size: 1.5rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item a:hover {
+  border-bottom: 2px inset #ccc;
+}
+
+.navbar-nav-bar-items {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+.btn {
+  border: 1px solid #000;
+  border-radius: 0%;
+  color: #000;
+  padding: 5px 20px;
+}
+
+.card-text-divider {
+  height: 2px;
+  width: auto;
+  margin: 10px 0 10px 0;
+  line-height: 27px;
+  background-color: #000;
+  text-align: center;
+  position: relative;
+  display: block;
+  clear: both;
+}
+
+.card-circle-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.card-square-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-big-square-title h5 {
+  text-align: center;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  margin: 20px 0;
+}
+
+img.calendar-img {
+  width: 100px;
+  height: 100px;
+}
+
+.card-title-number {
+  font-size: 1.5rem;
+  margin: 2% 5%;
+  text-align: center;
+}
+
+.card-divider {
+  width: 25px;
+  height: 5px;
+  background: #000;
+}
+
+.calendar-day-card {
+  width: 100%;
+  /* height: auto; */
+}
+
+.card-text {
+  border: 0;
+  table-layout: fixed;
+  word-break: break-all;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+.text-gray {
+  padding-top: 5%;
+  color: rgb(180, 180, 180);
+  line-height: 1.5rem;
+  letter-spacing: 3px;
+}
+.calendar-card-title {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.col-12-title::after {
+  content: "";
+  left: 49.5%;
+  bottom: -10px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #000;
+  clear: both;
+}
+
+.calendar-day-card .card-circle-img {
+  height: 0;
+  padding-top: 100%;
+  background-size: cover;
+  border-radius: 80% 50% 50% 50% / 80% 60% 40% 40%;
+}
+.calendar-day-card .card-circle-img:hover {
+  height: 0;
+  padding-top: 100%;
+  background-size: cover;
+  border-radius: 0;
+  transition: 1s;
+}
+
+/* footer bg */
+.bg-black {
+  background-color: #222222;
+}
+.footer-text{
+  font-size: .8rem;
+}
+.back-to-top {
+  height: 40px;
+  width: 40px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  border-radius: 3px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+.back-to-top a {
+  font-size: 0.8rem;
+  color: #ffffff;
+}
